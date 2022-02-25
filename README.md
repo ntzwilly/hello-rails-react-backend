@@ -1,24 +1,61 @@
-# README
+# Hello-rails-react-backend
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+In this project, I implement the backend Rails API to generate a random message from a prostgresql database table
 
-Things you may want to cover:
+## Link to the Front-end
 
-* Ruby version
+Front-end : [Hello-rails-react-frontend](https://github.com/ntzwilly/hello-rails-react-frontend)
 
-* System dependencies
+## Getting Started
 
-* Configuration
+To get a local copy up and running follow these simple example steps.
 
-* Database creation
+## Prerequisites
+  - Ruby
+  - Rails
+  - PostgreSQL
+## Setup
 
-* Database initialization
+- Make sure you have Ruby IRB installed on your computer
+- Clone or download this repo on your machine
+- Enter project directory
+## Install
 
-* How to run the test suite
+```sh
+bundle install
+```
 
-* Services (job queues, cache servers, search engines, etc.)
+### Database
 
-* Deployment instructions
+```sh
+# Create the database
+rails db:create
 
-* ...
+## Apply migration (only if you generate a new migration file)
+rails db:migrate
+```
+### Run
+
+```sh
+rails s
+```
+## Author
+
+👤 **Ntazama Willy**
+
+- GitHub: [@ntzwilly](https://github.com/ntzwilly)
+- LinkedIn: [@ntazamawilly](https://linkedin.com/in/ntazama-willy-b676b7aa)
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](../../issues/).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+- Microverse
