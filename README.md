@@ -1,6 +1,6 @@
 # Hello-rails-react-backend
 
-In this project, I implement the backend Rails API to generate a random message from a prostgresql database table
+In this project, I implement the backend Rails API to generate a random message from a prostgresql database's table
 
 ## Link to the Front-end
 
